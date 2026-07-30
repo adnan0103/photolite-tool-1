@@ -1,0 +1,412 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+body{
+
+    background:#f4f7fb;
+
+    color:#222;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:20px;
+
+    transition:.3s;
+
+}
+
+
+
+.container{
+
+    width:100%;
+
+    max-width:900px;
+
+}
+
+
+
+.brand{
+
+    text-align:center;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.brand h1{
+
+    font-size:36px;
+
+    color:#1b5cff;
+
+    margin-bottom:8px;
+
+}
+
+
+
+.brand p{
+
+    color:#666;
+
+    font-size:17px;
+
+}
+
+
+
+
+
+#darkBtn{
+
+    width:auto;
+
+    padding:10px 20px;
+
+    background:#222;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+.card,
+.preview{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+
+    margin-bottom:25px;
+
+}
+
+
+
+
+
+.card label{
+
+    display:block;
+
+    font-weight:bold;
+
+    margin-top:15px;
+
+    margin-bottom:8px;
+
+}
+
+
+
+
+input,
+select{
+
+    width:100%;
+
+    padding:13px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    background:white;
+
+}
+
+
+
+input:focus,
+select:focus{
+
+    outline:none;
+
+    border-color:#1b5cff;
+
+}
+
+
+
+
+
+button{
+
+    width:100%;
+
+    padding:14px;
+
+    margin-top:15px;
+
+    border:none;
+
+    border-radius:9px;
+
+    background:#1b5cff;
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+
+button:hover{
+
+    opacity:.85;
+
+}
+
+
+
+#batchBtn{
+
+    background:#6f42c1;
+
+}
+
+
+
+#zipBtn{
+
+    background:#198754;
+
+}
+
+
+
+.reset{
+
+    background:#dc3545;
+
+}
+
+
+
+
+
+#progressBox{
+
+    margin-top:20px;
+
+    padding:12px;
+
+    background:#f1f1f1;
+
+    border-radius:8px;
+
+    text-align:center;
+
+    font-weight:bold;
+
+}
+
+
+
+
+
+.preview{
+
+    text-align:center;
+
+}
+
+
+
+.preview h2{
+
+    margin-bottom:20px;
+
+}
+
+
+
+canvas{
+
+    width:100%;
+
+    max-width:600px;
+
+    border:2px solid #ddd;
+
+    border-radius:10px;
+
+    background:white;
+
+}
+
+
+
+#fileInfo{
+
+    margin:15px 0;
+
+    font-weight:bold;
+
+}
+
+
+
+
+
+#downloadBtn{
+
+    display:none;
+
+    background:#198754;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:13px 25px;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+}
+
+
+
+#downloadBtn:hover{
+
+    background:#146c43;
+
+}
+
+
+
+
+
+
+/* DARK MODE */
+
+
+.dark{
+
+    background:#111;
+
+    color:white;
+
+}
+
+
+
+.dark .card,
+.dark .preview{
+
+    background:#222;
+
+    color:white;
+
+}
+
+
+
+.dark input,
+.dark select{
+
+    background:#333;
+
+    color:white;
+
+    border-color:#555;
+
+}
+
+
+
+.dark #progressBox{
+
+    background:#333;
+
+}
+
+
+
+
+
+
+/* MOBILE DESIGN */
+
+
+@media(max-width:600px){
+
+
+    body{
+
+        padding:15px;
+
+    }
+
+
+    .brand h1{
+
+        font-size:28px;
+
+    }
+
+
+    .brand p{
+
+        font-size:14px;
+
+    }
+
+
+    .card,
+    .preview{
+
+        padding:18px;
+
+    }
+
+
+    button{
+
+        font-size:15px;
+
+    }
+
+
+}

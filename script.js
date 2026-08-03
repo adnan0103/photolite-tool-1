@@ -1,4 +1,4 @@
-const REMOVE_BG_API_KEY = "QhovFViS3qdS9eQjefwAv2H3";
+const REMOVE_BG_API_KEY = "LjnHeLnkiKpbRCLdZ5YFzKxv";
 
 
 const imageInput = document.getElementById("imageInput");
